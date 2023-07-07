@@ -47,3 +47,5 @@ player1.valueOf() //output: Object {name: "steve, marker: x, sayName: sayName()"
 
 player1.hasOwnProperty('valueOf'); //false
 Object.prototype.hasOwnProperty('valueOf'); //true
+
+Object.prototype.hasOwnProperty('hasOwnProperty'); //true
