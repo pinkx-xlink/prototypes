@@ -78,3 +78,11 @@ Object.getPrototypeOf(Player.prototype) // retyurns object.prototype
 Object.setPrototypeOf(Player.prototype, Person.prototype)
 Object.getPrototypeOf(Player.prototype) //returns Person.prototype
 
+//Don't need to be declared again, but done for example:
+//const player1 = new Player('steve', 'X')
+//const player2 = new Player('also Steve', 'O')
+
+player1.sayName() //Hello, I'm Steve!
+player2.sayName() //Hello, I'm also steve!
+
+
