@@ -49,3 +49,9 @@ player1.hasOwnProperty('valueOf'); //false
 Object.prototype.hasOwnProperty('valueOf'); //true
 
 Object.prototype.hasOwnProperty('hasOwnProperty'); //true
+
+//new example
+function Person(name) {
+    this.name = name 
+}
+
