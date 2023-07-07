@@ -23,3 +23,7 @@ function Player(name, marker) {
 //const player = new Player('steve', 'X')
 //console.log(player.name)
 
+const player1 = new Player('steve', 'X')
+const player2 = new Player('also steve', 'O')
+player1.sayName()
+player2.sayName()
