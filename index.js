@@ -39,3 +39,8 @@ Player.prototype.sayHello = function() {
 
 //player1.sayHello() //logs "Hello, I'm a player"
 //player2.sayHello() // logs "Hello, I'm a player"
+
+//Player.prototype
+Object.getPrototypeOf(Player.prototype) === Object.prototype //true
+
+player1.valueOf() //output: Object {name: "steve, marker: x, sayName: sayName()"}
