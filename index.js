@@ -85,4 +85,5 @@ Object.getPrototypeOf(Player.prototype) //returns Person.prototype
 player1.sayName() //Hello, I'm Steve!
 player2.sayName() //Hello, I'm also steve!
 
-
+player1.getMarker() // My marker is 'x'
+player2.getMarker() // My marker is 'O'
