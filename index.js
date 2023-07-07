@@ -44,3 +44,6 @@ Player.prototype.sayHello = function() {
 Object.getPrototypeOf(Player.prototype) === Object.prototype //true
 
 player1.valueOf() //output: Object {name: "steve, marker: x, sayName: sayName()"}
+
+player1.hasOwnProperty('valueOf'); //false
+Object.prototype.hasOwnProperty('valueOf'); //true
