@@ -1,9 +1,9 @@
 const playerOne = {
-    name: "time",
+    name: "tim",
     marker: "X"
 }
 
-const playerTwo {
+const playerTwo = {
     name: "jenn",
     marker: "O"
 }
