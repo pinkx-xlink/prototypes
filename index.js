@@ -55,3 +55,7 @@ function Person(name) {
     this.name = name 
 }
 
+Person.prototype.sayName = function() {
+    console.log(`Hello, I'm ${this.name}!!`)
+}
+
