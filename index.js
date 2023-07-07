@@ -11,3 +11,8 @@ const playerTwo = {
 function printName(player) {
     console.log(player.name)
 }
+
+function Player(name, marker) {
+    this.name = name 
+    this.marker = marker
+}
