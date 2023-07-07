@@ -25,8 +25,8 @@ function Player(name, marker) {
 
 const player1 = new Player('steve', 'X')
 const player2 = new Player('also steve', 'O')
-player1.sayName()
-player2.sayName()
+//player1.sayName()
+//player2.sayName()
 
 
 Object.getPrototypeOf(player1) === Player.prototype //returns true
