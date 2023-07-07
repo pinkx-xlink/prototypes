@@ -31,3 +31,11 @@ player2.sayName()
 
 Object.getPrototypeOf(player1) === Player.prototype //returns true
 Object.getPrototypeOf(player2) === Player.prototype // returns true
+
+
+Player.prototype.sayHello = function() {
+    console.log("Hello, I'm a player! ;p");
+}
+
+player1.sayHello() //logs "Hello, I'm a player"
+player2.sayHello() // logs "Hello, I'm a player"
